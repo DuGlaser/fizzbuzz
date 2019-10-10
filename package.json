@@ -1,0 +1,28 @@
+{
+    "name": "fizzbuzz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "ts-loader": "^6.2.0",
+        "typescript": "^3.6.4",
+        "webpack-cli": "^3.3.9",
+        "webpack": "^4.41.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DuGlaser/fizzbuzz.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DuGlaser/fizzbuzz/issues"
+    },
+    "homepage": "https://github.com/DuGlaser/fizzbuzz#readme",
+    "private": true
+}
