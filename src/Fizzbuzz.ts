@@ -21,16 +21,19 @@ class Fizzbuzz {
         document.getElementById('formArea').appendChild(inputValue);
 
         this.formInfo.push({ text: name, num: Number(value) });
-        inputName.onchange = () => {
-            this.updateFormInfo(inputName);
-        };
-        inputValue.onchange = () => {
-            this.updateFormInfo(inputValue);
-        };
+
+        this.updateFormInfo(inputName);
+        this.updateFormInfo(inputValue);
 
         this.formInfoCounter++;
     }
 
+    updateFormInfo(target: HTMLInputElement) {
+        target.onchange = () => {
+            this.formInfo[this.formInfoCounter].text = target.value;
+            this.displyfizzbuzz();
+        };
+    }
     displyfizzbuzz() {}
 }
 export default Fizzbuzz;
