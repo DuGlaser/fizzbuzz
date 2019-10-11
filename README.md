@@ -25,3 +25,6 @@ htmlの最大値を設定する要素が変更されたら実行されます
 
 ### displayFizzbuzz
 addFormで生成した要素の内容と範囲をもとに画面上にdiv#containerの中にfizzbuzzを表示します
+
+## 操作
+左上のプラスボタンを押すとFormが追加されます
