@@ -1,5 +1,5 @@
 # fizzbuzz
-## class Fizzbuzzz`
+## class Fizzbuzzz
 ### variable
 |変数名|説明|
 |------|----|
