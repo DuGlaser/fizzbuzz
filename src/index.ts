@@ -17,3 +17,9 @@ RangeMin.addEventListener('change', () => {
 RangeMax.addEventListener('change', () => {
     fizzbuzz.setMax(RangeMax.value);
 });
+
+// plusボタンを押したときにFormを追加する
+document.querySelector('.fa-plus-square').addEventListener('click', () => {
+    fizzbuzz.addForm('hoge', '2');
+    fizzbuzz.displyfizzbuzz();
+});
