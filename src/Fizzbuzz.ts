@@ -17,6 +17,7 @@ class Fizzbuzz {
 
         const inputValue: HTMLInputElement = document.createElement('input');
         inputValue.type = 'number';
+        inputValue.min = '1';
         inputValue.value = value;
 
         wrapper.appendChild(inputName);
